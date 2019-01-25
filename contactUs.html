@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="script/myScript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>M O N Y A avant-garde and stylish women's fashion</title>
+    <meta name="description" content="Women's fashion in an original avant-garde style, designed by Monika Jaworska" />
+    <meta name="keywords" content="monya, fashion, clothes, women's fashion, avant-garde, original, shop"/>
+    <meta name="author" content="Ewelina Jaworska"/>
+</head>
+
+<body>
+
+<header>
+    <div id="top-nav">
+        <div id="top-nav-left">
+            <a class="tooltip" href="#"><i class="fa fa-fw fa-search"><span class="tooltiptext">Search</span></i></a>
+        </div>
+        <div id="top-nav-right">
+            <a href="#"><i class="fa fa-shopping-basket"></i></a>
+            <a href="#"><i class="fa fa-heart"></i></a>
+            <a href="#"><i class="fa fa-fw fa-user"></i></a>
+        </div>
+    </div>
+
+    <div id="logo"><a href="index.html"><img src="img/logo.png" alt="MONYA logo"></a></div>
+
+    <div id="main-nav">
+        <a href="dresses.html">Dresses</a>
+        <a href="#">Trousers</a>
+        <a href="#">Blouses</a>
+        <a href="#">Coats</a>
+        <a href="#">Jackets</a>
+        <a href="#">Bags</a>
+        <a href="#">Jewellery</a>
+        <a href="#">Shoes</a>
+    </div>
+</header>
+
+<div id="content">
+    <div id="contact-us-container">
+
+        <div id="contact-descr">
+            <h1>Contact Us</h1>
+            <p>For any inquiries relating to our current ongoing promotion, we invite you to contact our Customer Care Team
+                via the contact form. Our Customer Care Team are available to assist and place orders over the phone between 09:00 to 18:00 GMT Monday to Friday.
+                We are closed during weekends.<br><br>Phone: +44 (0) 26 7896 6754<br>Email: customercare@monya.co.uk</p>
+            <p id="confirmation">Thank you! Your message has been sent!<p>
+        </div>
+
+        <div id="contact-form">
+            <form>
+                <label>Name</label>
+                <div class="input-group">
+                    <input type="text" id="contact-name" placeholder="Enter your name and surname">
+                    <span class="error" id="error-name">!</span>
+                </div>
+
+                <label>Email</label>
+                <div class="input-group">
+                    <input type="text" id="contact-email" placeholder="Enter your email">
+                    <span class="error" id="error-email">!</span>
+                </div>
+
+                <label>Message</label>
+                <div class="input-group">
+                    <textarea id="contact-message" placeholder="Enter your message" style="height:200px"></textarea>
+                    <span class="error" id="error-message">!</span>
+                </div>
+
+                <div id="submit-button" onclick="return validateForm()">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div id="social">
+    <p>Follow us:</p>
+    <div>
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    </div>
+</div>
+
+<footer>
+    <span>© MONYA 2019</span>
+    <a href="aboutUs.html">About Us</a>
+    <a class="active" href="contactUs.html">Contact Us</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Cookie Policy</a>
+    <a href="#">Delivery & Returns</a>
+    <a href="#">Newsletter</a>
+    <a href="#">Blog</a>
+</footer>
+
+</body>
+
+</html>
